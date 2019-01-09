@@ -1,9 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-#if NETFULL
-using System.Drawing.Text;
-#else
-using System.DrawingCore.Text;
-#endif
 using System.Runtime.InteropServices;
 
 namespace Svg.UnitTests

@@ -3,17 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.ComponentModel;
-#if NETFULL
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.Drawing;
 using SystemColor = System.Drawing.Color;
-#else
-using System.DrawingCore.Drawing2D;
-using System.DrawingCore.Text;
-using System.DrawingCore;
-using SystemColor = System.DrawingCore.Color;
-#endif
 using Svg.DataTypes;
 using System.Linq;
 using System.Globalization;

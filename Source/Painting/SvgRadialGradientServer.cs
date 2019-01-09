@@ -1,15 +1,9 @@
 using System;
 using System.Diagnostics;
 using System.Collections.Generic;
-#if NETFULL
 using System.Drawing.Drawing2D;
 using System.Drawing;
 using SystemColor = System.Drawing.Color;
-#else
-using System.DrawingCore.Drawing2D;
-using System.DrawingCore;
-using SystemColor = System.DrawingCore.Color;
-#endif
 using System.Linq;
 
 namespace Svg

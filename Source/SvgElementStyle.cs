@@ -1,23 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-#if NETFULL
-using System.Drawing.Drawing2D;
 using System.Drawing;
 using System.Drawing.Text;
-using  SystemFontStyle = System.Drawing.FontStyle;
-using  SystemFontFamily = System.Drawing.FontFamily;
-#else
-using System.DrawingCore.Drawing2D;
-using System.DrawingCore;
-using System.DrawingCore.Text;
-using  SystemFontStyle = System.DrawingCore.FontStyle;
-using  SystemFontFamily = System.DrawingCore.FontFamily;
-#endif
-using System.Text;
-using System.Reflection;
+using SystemFontStyle = System.Drawing.FontStyle;
+using SystemFontFamily = System.Drawing.FontFamily;
 using System.ComponentModel;
-using Svg.DataTypes;
-using System.Text.RegularExpressions;
 using System.Linq;
 
 namespace Svg

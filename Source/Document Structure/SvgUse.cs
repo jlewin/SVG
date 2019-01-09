@@ -1,15 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Xml;
-using System.Xml.Serialization;
-#if NETFULL
 using System.Drawing.Drawing2D;
 using System.Drawing;
-#else
-using System.DrawingCore.Drawing2D;
-using System.DrawingCore;
-#endif
 
 namespace Svg
 {

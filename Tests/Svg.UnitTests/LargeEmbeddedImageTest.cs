@@ -2,11 +2,7 @@
 using Svg.DataTypes;
 using System;
 using System.Diagnostics;
-#if NETFULL
 using System.Drawing;
-#else
-using System.DrawingCore;
-#endif
 using System.IO;
 
 namespace Svg.UnitTests

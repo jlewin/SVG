@@ -2,15 +2,9 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
-#if NETFULL
 using System.Drawing.Drawing2D;
 using System.Drawing;
 using System.Drawing.Imaging;
-#else
-using System.DrawingCore.Drawing2D;
-using System.DrawingCore;
-using System.DrawingCore.Imaging;
-#endif
 using Svg.DataTypes;
 
 namespace Svg.FilterEffects

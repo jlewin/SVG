@@ -1,13 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Diagnostics;
-#if NETFULL
-using System.Drawing;
-using System.Drawing.Imaging;
-#else
-using System.DrawingCore;
-using System.DrawingCore.Imaging;
-#endif
 using System.IO;
 using System.Xml;
 

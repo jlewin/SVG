@@ -2,16 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-#if NETFULL
 using System.Drawing.Drawing2D;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
-#else
-using System.DrawingCore.Drawing2D;
-using System.DrawingCore;
-using System.DrawingCore.Text;
-#endif
 
 namespace Svg
 {

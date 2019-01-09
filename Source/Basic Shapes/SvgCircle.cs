@@ -1,8 +1,4 @@
-#if NETFULL
 using System.Drawing.Drawing2D;
-#else
-using System.DrawingCore.Drawing2D;
-#endif
 
 
 namespace Svg
