@@ -45,7 +45,7 @@ namespace Svg
                         servers.Add((SvgPaintServer)document.IdManager.GetElementById(id));
                     }
                     // If referenced to to a different (linear or radial) gradient
-                    else if (document.IdManager.GetElementById(value) != null && document.IdManager.GetElementById(value).GetType().BaseType == typeof(SvgGradientServer))
+                    else if (document != null && document.IdManager.GetElementById(value) != null && document.IdManager.GetElementById(value).GetType().BaseType == typeof(SvgGradientServer))
                     {
                         return (SvgPaintServer)document.IdManager.GetElementById(value);
                     }
